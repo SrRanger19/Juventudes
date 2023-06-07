@@ -14,7 +14,7 @@ const Information = () => {
         </div>
         <div className="col-start-2">
             <h1 className="text-lg">Tarjeta Juventudes</h1>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 gap-4 mt-5">
                 <div className="">
                     <button className="h-32 w-full bg-[#53B4E3] rounded-xl flex flex-col items-center justify-center"><img src="./print.svg"/></button>
                     <h1 className="text-[#676767] text-sm mt-5">Imprimir</h1>
