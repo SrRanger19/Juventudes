@@ -3,17 +3,7 @@ import React from 'react'
 const ContactForm = () => {
   return (
     <div className="col-span-5 h-screen w-full">
-        <div className="grid grid-cols-2 h-20">
-            <div className="flex flex-col items-center justify-center">
-                <img src="./LOGOOFICIAL1.svg" className="w-28 h-14 object-fit"/>
-            </div>
-            <div className="grid grid-cols-3 flex flex-col items-center justify-center">
-                <h1 className="">Inicio</h1>
-                <h1 className="col-start-2 text-[#787878]">Negocios</h1>
-                <h1 className="col-start-3 text-[#787878]">Contactanos</h1>
-            </div>
-        </div>
-        <form className="w-[70%] h-[88%] ml-[20%]">
+        <form className="w-[70%] h-[88%] ml-[20%] mt-16">
             <h1 className="text-[52px]">Contactanos</h1>
             <div className="h-[1%] w-[17%] bg-[#2CA3DC] rounded-3xl mt-2"></div>
             <div className="mt-3">
